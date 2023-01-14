@@ -1,0 +1,460 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*some common style */
+
+body{
+    /* background-color: #edeaeac2; */
+    
+}
+.container{
+    width: 1140px;
+    /* margin: 0 auto; */
+    margin: 0 120px;
+    background-color: #ffffff;
+    
+}
+
+
+/* ----------------------------
+     this is navbar area start 
+    ------------------------------*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.nav-title{
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+    padding: 10px 17px;
+}
+
+
+
+/*-----------------------------
+     this is navbar area end 
+    ----------------------------*/
+
+    
+/*-----------------------------
+     this is landing page area start
+    ----------------------------*/
+.landing-page{
+    display: flex;
+    margin-bottom: 125px;
+}
+.page-content{
+    margin-top: 145px;
+}
+.page-heading{
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.page-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.btn-primary{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    border: none;
+
+
+}
+.page-image{
+    margin-top: 80px;
+    margin-left: 133px;
+}
+
+.main-image{
+    position: relative;
+    top: 25px;
+    width: 440px;
+    height: 414px;
+    
+}
+.bottom-svg{
+    position: absolute;
+    right: 85px;
+    height: 475px;
+    width: 475px;
+    
+    
+}
+
+
+
+/*-----------------------------
+     this is landing page area end
+    ----------------------------*/
+
+
+ /*-----------------------------
+     this is brand arrea start
+     ----------------------------*/
+
+.brands{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    grid-column-gap:60px;
+    margin: 0 60px;
+    padding: 35px 0;
+    border-top: 2px solid #f1eeee;
+    border-bottom: 2px solid #f1eeee;
+    margin-bottom: 100px;
+    
+}
+.brand img{
+    
+}
+
+
+ /*-----------------------------
+     this is brand arrea end
+     ----------------------------*/
+
+
+ /*-----------------------------
+     this is products area start
+     ----------------------------*/
+
+.section-title{
+    text-align: center;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+}
+
+.product{
+    /* width: 330px; */
+    /* height: 477px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    
+    
+    
+}
+.product-image{
+   
+    text-align: center;
+    border-radius: 5px;
+    margin: 16px auto;
+}
+
+.product-name{
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.product-price{
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+.rating{
+    font-size: 16px;
+    color: gold;
+    margin-bottom: 16px;
+}
+.rating span{
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6366;
+    padding-left: 8px;
+}
+.sell-info{
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
+}
+.see-more{
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+ /*-----------------------------
+     this is product arrea end
+     ----------------------------*/
+
+     /*-----------------------------
+     this is feature product area start
+     ----------------------------*/
+.feature-products{
+    display: flex;
+    padding-bottom: 100px;
+}
+.feature-product-img{
+    width: 404px;
+    height: 270px;
+}
+
+.details-all{
+    margin-left: 96px;
+}
+.feature-title{
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+.pera{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 16px;
+}
+
+
+
+
+.bottom-btn{
+    border-radius: 0;
+}
+
+     
+     /*-----------------------------
+     this is feature product area end
+     ----------------------------*/
+
+ /*-----------------------------
+     this is footer area start
+     ----------------------------*/
+
+.footer-all{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: #0A0826;
+}
+.footer-title{
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+.copyright{
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding-top: 5px;
+}
+.footer-icon{
+    font-size: 32px;
+    color: #f1eeee;
+    padding-top: 17px;
+   
+}
+.footer-icon i{
+    padding-right: 15px;
+}
+.hide{
+    display: none;
+}
+
+
+ /*-----------------------------
+     this is footer area start
+     ----------------------------*/
+
+
+ /*-----------------------------
+     This is responsive style area
+     ----------------------------*/
+
+/* for mobile */
+
+
+@media only screen and (max-width:576px) {
+    /* navbar style */
+    .container{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .main-nav ul{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    /* landing page style */
+    .landing-page{
+        flex-direction: column-reverse;
+    }
+    .page-content {
+        
+        text-align: center;
+    }
+    .page-image{
+        margin-left: 0;
+    }
+    .bottom-svg{
+        width: 100%;
+        right: -30px;
+    }
+    .main-image{
+        width: 100%;
+    }
+
+    /* brands are style */
+    .brands{
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+
+    /* product style  */
+
+    .products{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+   .product-image{
+    text-align: start;
+   }
+
+   .see-more{
+    text-align: center;
+    }
+
+   /* feature area syle */
+
+   .feature-products{
+    flex-direction: column-reverse;
+   }
+   .details-all{
+    margin: 0;
+    text-align: center;
+   }
+   .bottom-btn{
+    margin-bottom: 30px;
+   }
+   
+
+
+}
+
+
+/* for teblet or other device */
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+    .container{
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    /* navbar area style */
+    .navbar{
+        flex-direction: column;
+    }
+    .main-nav{
+        padding-top: 30px;
+    }
+    /* landing page area styel */
+
+    .landing-page{
+        flex-direction: column-reverse;
+    }
+    .page-content{
+        text-align: center;
+    }
+    .bottom-svg{
+        position: absolute;
+        right: 160px;
+    }
+    .main-image{
+        position: relative;
+        left: 100px;
+    }
+
+    /* brands area style */
+    .brands{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    /* products area style */
+
+    .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .see-more{
+        text-align: center;
+    }
+
+    /* feature area style */
+
+    .feature-products{
+        flex-direction: column-reverse;
+        
+    }
+    .feature-product-img{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .details-all{
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+
+
+
+
